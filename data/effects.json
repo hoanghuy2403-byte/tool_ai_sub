@@ -1,0 +1,67 @@
+{
+    "text_effects": {
+        "emphasis": {
+            "strong": {
+                "font_weight": "bold",
+                "color": "#FF0000",
+                "text_shadow": "2px 2px 4px rgba(255,0,0,0.2)"
+            },
+            "highlight": {
+                "background": "rgba(255,255,0,0.3)",
+                "border_radius": "3px",
+                "padding": "0 3px"
+            },
+            "special": {
+                "font_style": "italic",
+                "color": "#9C27B0",
+                "letter_spacing": "1px"
+            }
+        },
+        "emotions": {
+            "positive": {
+                "color": "#4CAF50",
+                "transform": "scale(1.05)",
+                "transition": "all 0.3s ease"
+            },
+            "negative": {
+                "color": "#F44336",
+                "transform": "scale(0.95)",
+                "transition": "all 0.3s ease"
+            },
+            "neutral": {
+                "color": "#2196F3",
+                "transition": "all 0.3s ease"
+            }
+        }
+    },
+    "animations": {
+        "hover": {
+            "scale": "transform: scale(1.1)",
+            "glow": "box-shadow: 0 0 10px rgba(255,255,0,0.5)",
+            "shake": "animation: shake 0.5s",
+            "pulse": "animation: pulse 1s infinite",
+            "rotate": "transform: rotate(5deg)",
+            "bounce": "animation: bounce 0.5s",
+            "wave": "animation: wave 1s infinite"
+        },
+        "keyframes": {
+            "pulse": "@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }",
+            "shake": "@keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }",
+            "bounce": "@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }",
+            "wave": "@keyframes wave { 0% { transform: rotate(0deg); } 25% { transform: rotate(5deg); } 75% { transform: rotate(-5deg); } 100% { transform: rotate(0deg); } }"
+        }
+    },
+    "icon_effects": {
+        "size_variations": {
+            "small": "0.8em",
+            "medium": "1em",
+            "large": "1.2em"
+        },
+        "positions": {
+            "before": "margin-right: 0.3em",
+            "after": "margin-left: 0.3em",
+            "above": "display: block; margin-bottom: 0.2em",
+            "below": "display: block; margin-top: 0.2em"
+        }
+    }
+} 

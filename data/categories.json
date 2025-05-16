@@ -1,0 +1,335 @@
+{
+  "categories": {
+    "person": {
+      "keywords": [
+        "person", "people", "friend", "family", "mom", "dad", "parent", "parents",
+        "his", "her", "them", "they", "brother", "sister", "uncle", "aunt",
+        "boy", "girl", "man", "woman", "child", "baby", "guy", "lady",
+        "mother", "father", "son", "daughter", "grandma", "grandpa", "husband", "wife",
+        "boyfriend", "girlfriend", "teacher", "student", "doctor", "nurse"
+      ],
+      "color": "#FF5733",
+      "font_weight": "bold",
+      "icon": "👥",
+      "hover_effect": "scale",
+      "context_icons": {
+        "person": "🧑", "people": "👥", "friend": "🤝",
+        "family": "👨‍👩‍👧‍👦", "mom": "👩", "mother": "👩",
+        "dad": "👨", "father": "👨", "parent": "👪", "parents": "👪",
+        "brother": "👦", "sister": "👧",
+        "uncle": "👨", "aunt": "👩",
+        "boy": "👦", "girl": "👧",
+        "man": "👨", "woman": "👩",
+        "child": "🧒", "baby": "👶",
+        "guy": "👨", "lady": "👩",
+        "son": "👦", "daughter": "👧",
+        "grandma": "👵", "grandpa": "👴",
+        "husband": "👨", "wife": "👩",
+        "boyfriend": "👨", "girlfriend": "👩",
+        "teacher": "👩‍🏫", "student": "👨‍🎓",
+        "doctor": "👨‍⚕️", "nurse": "👩‍⚕️"
+      }
+    },
+    "emotion": {
+      "keywords": [
+        "happy", "sad", "angry", "excited", "love", "hate", "fear", "joy",
+        "laugh", "cry", "smile", "worry", "nervous", "proud", "scared",
+        "surprised", "confused", "tired", "bored", "interested", "annoyed",
+        "frustrated", "calm", "peaceful", "anxious", "stressed", "relaxed",
+        "satisfied", "disappointed", "grateful", "lonely", "confident"
+      ],
+      "color": "#FF33A8",
+      "font_weight": "normal",
+      "icon": "😊",
+      "hover_effect": "pulse",
+      "context_icons": {
+        "happy": "😊", "sad": "😢", "angry": "😠",
+        "excited": "🤩", "love": "❤️", "hate": "😡",
+        "fear": "😨", "joy": "😃", "laugh": "😂",
+        "cry": "😭", "smile": "😊", "worry": "😟",
+        "nervous": "😰", "proud": "😌", "scared": "😱",
+        "surprised": "😲", "confused": "😕", "tired": "😫",
+        "bored": "😑", "interested": "🤔", "annoyed": "😤",
+        "frustrated": "😖", "calm": "😌", "peaceful": "😇",
+        "anxious": "😰", "stressed": "😓", "relaxed": "😌",
+        "satisfied": "😊", "disappointed": "😞", "grateful": "🙏",
+        "lonely": "😔", "confident": "😎"
+      }
+    },
+    "action": {
+      "keywords": [
+        "run", "walk", "jump", "dance", "sing", "eat", "drink", "sleep",
+        "work", "play", "write", "read", "speak", "listen", "watch",
+        "cook", "build", "draw", "swim", "drive", "fly", "teach",
+        "learn", "help", "clean", "wash", "buy", "sell", "give", "take",
+        "make", "create", "break", "fix", "open", "close", "start", "stop"
+      ],
+      "color": "#33FF57",
+      "font_weight": "bold",
+      "icon": "🏃",
+      "hover_effect": "shake",
+      "context_icons": {
+        "run": "🏃", "walk": "🚶", "jump": "⬆️",
+        "dance": "💃", "sing": "🎤", "eat": "🍽️",
+        "drink": "🥤", "sleep": "😴", "work": "💼",
+        "play": "🎮", "write": "✍️", "read": "📖",
+        "speak": "🗣️", "listen": "👂", "watch": "👀",
+        "cook": "👩‍🍳", "build": "🏗️", "draw": "🎨",
+        "swim": "🏊", "drive": "🚗", "fly": "✈️",
+        "teach": "👩‍🏫", "learn": "📚", "help": "🤝",
+        "clean": "🧹", "wash": "🧼", "buy": "🛒",
+        "sell": "💰", "give": "🎁", "take": "✋",
+        "make": "🛠️", "create": "🎨", "break": "💔",
+        "fix": "🔧", "open": "📭", "close": "📪",
+        "start": "▶️", "stop": "⏹️"
+      }
+    },
+    "time": {
+      "keywords": [
+        "today", "tomorrow", "yesterday", "now", "later", "soon",
+        "never", "always", "morning", "afternoon", "evening", "night",
+        "year", "month", "week", "day", "hour", "minute", "second",
+        "past", "present", "future", "early", "late", "before", "after",
+        "daily", "weekly", "monthly", "yearly", "forever", "temporary"
+      ],
+      "color": "#3357FF",
+      "font_weight": "normal",
+      "icon": "⏰",
+      "hover_effect": "rotate",
+      "context_icons": {
+        "today": "📅", "tomorrow": "📆", "yesterday": "📅",
+        "now": "⌛", "later": "⏳", "soon": "🔜",
+        "never": "❌", "always": "♾️",
+        "morning": "🌅", "afternoon": "🌤️",
+        "evening": "🌆", "night": "🌙",
+        "year": "📅", "month": "📅", "week": "📅",
+        "day": "☀️", "hour": "🕐", "minute": "⏰",
+        "second": "⏱️", "past": "⏮️", "present": "⏺️",
+        "future": "⏭️", "early": "🌅", "late": "🌙",
+        "before": "⏮️", "after": "⏭️",
+        "daily": "📆", "weekly": "📅", "monthly": "📅",
+        "yearly": "📅", "forever": "♾️", "temporary": "⏳"
+      }
+    },
+    "place": {
+      "keywords": [
+        "home", "school", "office", "park", "city", "country",
+        "street", "road", "building", "house", "apartment",
+        "restaurant", "store", "shop", "market", "mall",
+        "hospital", "library", "airport", "station", "hotel",
+        "beach", "mountain", "forest", "river", "lake", "ocean",
+        "garden", "farm", "church", "temple", "museum", "theater",
+        "gym", "stadium", "playground", "cafe", "bank"
+      ],
+      "color": "#FFDA33",
+      "font_weight": "normal",
+      "icon": "📍",
+      "hover_effect": "bounce",
+      "context_icons": {
+        "home": "🏠", "school": "🏫", "office": "🏢",
+        "park": "🏞️", "city": "🌆", "country": "🗺️",
+        "street": "🛣️", "road": "🛣️", "building": "🏛️",
+        "house": "🏠", "apartment": "🏢",
+        "restaurant": "🍽️", "store": "🏪", "shop": "🛍️",
+        "market": "🏬", "mall": "🛍️",
+        "hospital": "🏥", "library": "📚", "airport": "✈️",
+        "station": "🚉", "hotel": "🏨",
+        "beach": "🏖️", "mountain": "⛰️", "forest": "🌲",
+        "river": "🏞️", "lake": "💧", "ocean": "🌊",
+        "garden": "🌷", "farm": "🌾",
+        "church": "⛪", "temple": "🏛️", "museum": "🏛️",
+        "theater": "🎭", "gym": "💪", "stadium": "🏟️",
+        "playground": "🎡", "cafe": "☕", "bank": "🏦"
+      }
+    },
+    "object": {
+      "keywords": [
+        "phone", "computer", "laptop", "tablet", "book", "pen",
+        "pencil", "paper", "notebook", "desk", "chair", "table",
+        "bed", "door", "window", "car", "bike", "bus", "train",
+        "plane", "boat", "food", "water", "clothes", "shoes",
+        "bag", "key", "wallet", "money", "clock", "watch",
+        "camera", "television", "radio", "light", "lamp"
+      ],
+      "color": "#A833FF",
+      "font_weight": "normal",
+      "icon": "📱",
+      "hover_effect": "fade",
+      "context_icons": {
+        "phone": "📱", "computer": "💻", "laptop": "💻",
+        "tablet": "📱", "book": "📚", "pen": "🖊️",
+        "pencil": "✏️", "paper": "📄", "notebook": "📓",
+        "desk": "🪑", "chair": "💺", "table": "🪑",
+        "bed": "🛏️", "door": "🚪", "window": "🪟",
+        "car": "🚗", "bike": "🚲", "bus": "🚌",
+        "train": "🚂", "plane": "✈️", "boat": "⛵",
+        "food": "🍽️", "water": "💧", "clothes": "👕",
+        "shoes": "👞", "bag": "👜", "key": "🔑",
+        "wallet": "👛", "money": "💰", "clock": "⏰",
+        "watch": "⌚", "camera": "📷", "television": "📺",
+        "radio": "📻", "light": "💡", "lamp": "💡"
+      }
+    },
+    "nature": {
+      "keywords": [
+        "sun", "moon", "star", "sky", "cloud", "rain", "snow",
+        "wind", "storm", "thunder", "lightning", "rainbow",
+        "tree", "flower", "grass", "plant", "leaf", "forest",
+        "mountain", "hill", "rock", "stone", "river", "lake",
+        "ocean", "sea", "beach", "island", "earth", "world",
+        "animal", "bird", "fish", "insect"
+      ],
+      "color": "#33FFA8",
+      "font_weight": "normal",
+      "icon": "🌿",
+      "hover_effect": "glow",
+      "context_icons": {
+        "sun": "☀️", "moon": "🌙", "star": "⭐",
+        "sky": "🌌", "cloud": "☁️", "rain": "🌧️",
+        "snow": "❄️", "wind": "💨", "storm": "⛈️",
+        "thunder": "⛈️", "lightning": "⚡", "rainbow": "🌈",
+        "tree": "🌳", "flower": "🌸", "grass": "🌱",
+        "plant": "🌱", "leaf": "🍃", "forest": "🌲",
+        "mountain": "⛰️", "hill": "⛰️", "rock": "🪨",
+        "stone": "🪨", "river": "🏞️", "lake": "💧",
+        "ocean": "🌊", "sea": "🌊", "beach": "🏖️",
+        "island": "🏝️", "earth": "🌍", "world": "🌎",
+        "animal": "🐾", "bird": "🐦", "fish": "🐠",
+        "insect": "🐛"
+      }
+    },
+    "number": {
+      "keywords": ["one", "two", "three", "first", "second", "third", "many", "few", "some", "all", "none", "half", "double", "hundred", "thousand", "million"],
+      "color": "#FF8C33",
+      "font_weight": "bold",
+      "icon": "🔢",
+      "hover_effect": "highlight",
+      "context_icons": {
+        "one": "1️⃣",
+        "two": "2️⃣",
+        "three": "3️⃣",
+        "first": "🥇",
+        "second": "🥈",
+        "third": "🥉",
+        "many": "💯",
+        "few": "⚪",
+        "all": "⭕",
+        "none": "0️⃣",
+        "half": "½",
+        "double": "✌️"
+      }
+    },
+    "communication": {
+      "keywords": [
+        "say", "tell", "ask", "answer", "speak", "talk", "chat",
+        "write", "read", "listen", "hear", "call", "message",
+        "email", "text", "phone", "letter", "language", "word",
+        "sentence", "question", "reply", "discuss", "explain",
+        "understand", "mean", "translate", "communicate"
+      ],
+      "color": "#33A8FF",
+      "font_weight": "normal",
+      "icon": "💬",
+      "hover_effect": "wave",
+      "context_icons": {
+        "say": "🗣️", "tell": "💭", "ask": "❓",
+        "answer": "✅", "speak": "🗣️", "talk": "💭",
+        "chat": "💭", "write": "✍️", "read": "📖",
+        "listen": "👂", "hear": "👂", "call": "📞",
+        "message": "💬", "email": "📧", "text": "📱",
+        "phone": "📱", "letter": "✉️", "language": "🗣️",
+        "word": "📝", "sentence": "📝", "question": "❓",
+        "reply": "↩️", "discuss": "💭", "explain": "💡",
+        "understand": "🤔", "mean": "💭", "translate": "🔄",
+        "communicate": "🗣️"
+      }
+    },
+    "emotion_positive": {
+      "keywords": ["love", "happy", "joy", "excited", "wonderful", "amazing", "great", "perfect", "awesome", "excellent", "fantastic", "brilliant", "delighted"],
+      "color": "#FF66B2",
+      "font_weight": "bold",
+      "icon": "🥰",
+      "hover_effect": "sparkle",
+      "context_icons": {
+        "love": "❤️",
+        "happy": "😊",
+        "joy": "😃",
+        "excited": "🤩",
+        "wonderful": "✨",
+        "amazing": "🌟",
+        "great": "👍",
+        "perfect": "💯",
+        "awesome": "🔥",
+        "excellent": "🏆",
+        "fantastic": "🌈",
+        "brilliant": "💫",
+        "delighted": "😍"
+      }
+    },
+    "emotion_negative": {
+      "keywords": ["sad", "angry", "upset", "terrible", "horrible", "bad", "worst", "hate", "awful", "poor", "disappointed", "frustrated", "annoyed"],
+      "color": "#8B0000",
+      "font_weight": "bold",
+      "icon": "😢",
+      "hover_effect": "shake",
+      "context_icons": {
+        "sad": "😢",
+        "angry": "😠",
+        "upset": "😣",
+        "terrible": "😫",
+        "horrible": "😱",
+        "bad": "👎",
+        "worst": "💔",
+        "hate": "😡",
+        "awful": "🤢",
+        "poor": "😞",
+        "disappointed": "😔",
+        "frustrated": "😤",
+        "annoyed": "😒"
+      }
+    }
+  },
+  "default_style": {
+    "color": "#000000",
+    "font_weight": "normal",
+    "icon": "",
+    "hover_effect": "none"
+  },
+  "important_style": {
+    "color": "#FF9900",
+    "font_weight": "bold",
+    "icon": "⭐",
+    "hover_effect": "glow"
+  },
+  "emphasis_styles": {
+    "strong": {
+      "color": "#FF0000",
+      "font_weight": "bold",
+      "text_decoration": "underline",
+      "hover_effect": "scale"
+    },
+    "highlight": {
+      "background_color": "#FFFF00",
+      "color": "#000000",
+      "hover_effect": "glow"
+    },
+    "special": {
+      "color": "#9C27B0",
+      "font_style": "italic",
+      "text_shadow": "2px 2px 4px rgba(0,0,0,0.2)",
+      "hover_effect": "rotate"
+    }
+  },
+  "animations": {
+    "scale": "transform: scale(1.1)",
+    "pulse": "animation: pulse 1s infinite",
+    "shake": "animation: shake 0.5s",
+    "rotate": "transform: rotate(5deg)",
+    "bounce": "animation: bounce 0.5s",
+    "fade": "opacity: 0.8",
+    "glow": "box-shadow: 0 0 10px rgba(255,255,0,0.5)",
+    "highlight": "background-color: rgba(255,255,0,0.3)",
+    "wave": "animation: wave 1s infinite",
+    "sparkle": "animation: sparkle 1s infinite"
+  }
+}

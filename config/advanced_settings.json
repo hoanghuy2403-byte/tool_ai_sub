@@ -1,0 +1,180 @@
+{
+    "language_settings": {
+        "supported_languages": {
+            "en": {
+                "name": "English",
+                "models": ["en_core_web_md", "en_core_web_sm"],
+                "sentiment_analysis": true,
+                "translation": true
+            },
+            "vi": {
+                "name": "Vietnamese",
+                "models": ["vi_core_news_md", "vi_core_news_sm"],
+                "sentiment_analysis": true,
+                "translation": true
+            },
+            "zh": {
+                "name": "Chinese",
+                "models": ["zh_core_web_md", "zh_core_web_sm"],
+                "sentiment_analysis": true,
+                "translation": true
+            },
+            "ja": {
+                "name": "Japanese",
+                "models": ["ja_core_news_md", "ja_core_news_sm"],
+                "sentiment_analysis": true,
+                "translation": true
+            },
+            "ko": {
+                "name": "Korean",
+                "models": ["ko_core_news_md", "ko_core_news_sm"],
+                "sentiment_analysis": true,
+                "translation": true
+            }
+        },
+        "auto_detection": {
+            "enabled": true,
+            "confidence_threshold": 0.8,
+            "sample_size": 50
+        }
+    },
+    "analysis_settings": {
+        "sentiment_analysis": {
+            "enabled": true,
+            "models": {
+                "default": "textblob",
+                "available": ["textblob", "transformers", "custom"]
+            },
+            "emotion_mapping": true,
+            "context_aware": true
+        },
+        "word_importance": {
+            "algorithms": ["tf-idf", "textrank", "custom"],
+            "default_threshold": 0.5,
+            "context_window": 5,
+            "pos_weights": {
+                "PROPN": 0.4,
+                "NOUN": 0.35,
+                "VERB": 0.3,
+                "ADJ": 0.25,
+                "ADV": 0.2
+            }
+        },
+        "context_analysis": {
+            "window_size": 5,
+            "consider_sentence_boundaries": true,
+            "consider_paragraph_boundaries": true,
+            "semantic_similarity": true
+        }
+    },
+    "visualization_settings": {
+        "themes": {
+            "light": {
+                "background": "#ffffff",
+                "text": "#000000",
+                "highlight": "#ffeb3b",
+                "accent": "#2196f3"
+            },
+            "dark": {
+                "background": "#121212",
+                "text": "#ffffff",
+                "highlight": "#ffd700",
+                "accent": "#03a9f4"
+            },
+            "custom": {
+                "enabled": true,
+                "allow_user_colors": true
+            }
+        },
+        "animations": {
+            "enabled": true,
+            "types": ["fade", "slide", "bounce", "highlight"],
+            "duration": 0.3
+        },
+        "word_cloud": {
+            "enabled": true,
+            "max_words": 100,
+            "background_color": "white"
+        },
+        "charts": {
+            "enabled": true,
+            "types": ["sentiment_timeline", "word_frequency", "category_distribution"]
+        }
+    },
+    "export_settings": {
+        "formats": {
+            "html": {
+                "templates": ["modern", "classic", "minimal"],
+                "responsive": true,
+                "include_scripts": true
+            },
+            "srt": {
+                "styling": true,
+                "group_words": true,
+                "time_adjust": true
+            },
+            "vtt": {
+                "styling": true,
+                "cue_settings": true
+            },
+            "ass": {
+                "styling": true,
+                "effects": true
+            },
+            "docx": {
+                "styling": true,
+                "toc": true,
+                "statistics": true
+            },
+            "json": {
+                "pretty_print": true,
+                "include_metadata": true
+            }
+        },
+        "batch_processing": {
+            "enabled": true,
+            "max_files": 10,
+            "parallel_processing": true
+        }
+    },
+    "advanced_features": {
+        "translation": {
+            "enabled": true,
+            "services": ["google", "deepl", "custom"],
+            "preserve_formatting": true,
+            "batch_translate": true
+        },
+        "ocr": {
+            "enabled": true,
+            "engines": ["tesseract", "easyocr"],
+            "languages": ["en", "vi", "zh", "ja", "ko"],
+            "preprocessing": true
+        },
+        "audio_analysis": {
+            "enabled": true,
+            "features": ["speech_detection", "speaker_diarization", "emotion_detection"],
+            "sync_with_subtitles": true
+        },
+        "spell_check": {
+            "enabled": true,
+            "languages": ["en", "vi"],
+            "auto_correct": false,
+            "suggestions": true
+        },
+        "custom_categories": {
+            "enabled": true,
+            "user_defined": true,
+            "max_categories": 20
+        }
+    },
+    "performance_settings": {
+        "caching": {
+            "enabled": true,
+            "max_size_mb": 100,
+            "ttl_minutes": 60
+        },
+        "batch_size": 1000,
+        "parallel_processing": true,
+        "gpu_acceleration": "auto"
+    }
+} 

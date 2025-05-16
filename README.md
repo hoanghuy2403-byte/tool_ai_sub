@@ -40,7 +40,7 @@ Công cụ AI hiện đại để xử lý và làm nổi bật phụ đề, v�
 
 1. Clone repository:
 ```bash
-git clone https://github.com/your-username/srt-highlighter.git
+git clone https://github.com/hoanghuy2403-byte/tool_ai_sub.git
 cd srt-highlighter
 ```
 
